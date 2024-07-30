@@ -2,17 +2,15 @@
   width: 100%;
   padding: 20px 0;
   background-color: #fff;
-  position: fixed;
+  position: sticky;
   top: 0;
+  left: 0;
   transition: all 0.4s;
   z-index: 10;
+  box-shadow: 0 0 15px #5e59592a;
 
   a {
     text-decoration: none;
-  }
-
-  &_active {
-    box-shadow: 0 0 15px #5e59592a;
   }
 
   &_flex {

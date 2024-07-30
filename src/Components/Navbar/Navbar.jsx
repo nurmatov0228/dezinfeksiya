@@ -8,14 +8,14 @@ export default class Navbar extends Component {
       <section className="navbar_active navbar">
         <div className="container">
           <div className="navbar_flex">
-            <a className="nav_logo_link" href="#home">
+            <a className="navbar__logo__link" href="#home">
               <img
-                className="logo_pic"
+                className="logo__pic"
                 src={dezinfeksiya}
                 alt="This is the logo"
               />
             </a>
-            <div className="nav_rigth_box">
+            <div className="navbar__rigth__box">
               <div className="null navigations">
                 <button className="close_menu">
                   <svg
@@ -32,16 +32,16 @@ export default class Navbar extends Component {
                     <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
                   </svg>
                 </button>
-                <a href="#home" className="nav_links">
+                <a href="#home" className="navbar__links">
                   Asosiy
                 </a>
-                <a href="#about" id="linkitem" className="nav_links">
+                <a href="#about" id="linkitem" className="navbar__links">
                   Biz haqimizda
                 </a>
-                <a href="#service" className="nav_links">
+                <a href="#service" className="navbar__links">
                   Xizmatlar
                 </a>
-                <a href="#faq" className="nav_links">
+                <a href="#faq" className="navbar__links">
                   Faq
                 </a>
                 <a href="#contact" className="gg">
@@ -52,11 +52,11 @@ export default class Navbar extends Component {
               </div>
               <div className="navbar_lang_and_btn_div">
                 <div className="custom-dropdown">
-                  <select className="lang_option">
-                    <option className="lang_option" value="ru">
+                  <select className="lang__option">
+                    <option className="lang__option" value="ru">
                       Русский
                     </option>
-                    <option className="lang_option" value="uz">
+                    <option className="lang__option" value="uz">
                       O'zbekcha
                     </option>
                   </select>

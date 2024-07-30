@@ -70,7 +70,7 @@ export default class Faq extends Component {
                     qilinishi kerak. Mebel yoki maishiy asbob-uskunalarni
                     ko'chirishga hojat yo'q.
                   </p>
-                </AccordionDetails>+
+                </AccordionDetails>
               </Accordion>
             </div>
           </div>

@@ -8,7 +8,7 @@ export default class Footer extends Component {
       <section className="footer">
         <div className="container">
           <div className="footer__flex">
-            <a href="#" className="footer__logo__link">
+            <a href="#home" className="footer__logo__link">
               <img
                 className="logo__pic"
                 src={dezinfeksiya}
@@ -18,7 +18,7 @@ export default class Footer extends Component {
             <div className="footer__right_div">
               <div className="footer__phone_address">
                 <div className="animated bounceInLeft anm1">
-                  <a href="#">
+                  <a href="#home">
                     <span className="footer__span">
                       <svg
                         stroke="currentColor"

@@ -84,17 +84,17 @@
 }
 
 @media (max-width: 885px) {
-  noinsect__tr {
+  .noinsect__tr {
     display: none;
   }
 
-  noinsect__flex {
+  .noinsect__flex {
     justify-content: flex-start;
   }
 }
 
 @media (max-width: 720px) {
-  noinsect__title {
+  .noinsect__title {
     font-size: 30px;
   }
 }

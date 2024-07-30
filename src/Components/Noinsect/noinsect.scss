@@ -98,3 +98,10 @@
     font-size: 30px;
   }
 }
+
+@media (max-width: 450px) {
+  .noinsect__title {
+    font-size: 26px;
+    min-width: 250px;
+  }
+}

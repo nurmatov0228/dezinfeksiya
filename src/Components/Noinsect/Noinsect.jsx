@@ -11,7 +11,7 @@ export default class Noinsect extends Component {
             <div className="noinsect__info">
               <div className="animated bounceInRight  anm1" id="animated">
                 <h2 className="noinsect__title">
-                  Klapa va zararli xashorot endi yo'k deb hisoblang!!!
+                  Klapa va zararli xashorot endi yo'q deb hisoblang!!!
                 </h2>
               </div>
               <div className="animated bounceInRight  anm2" id="animated">

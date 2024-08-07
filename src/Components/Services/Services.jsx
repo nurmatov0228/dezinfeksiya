@@ -14,16 +14,31 @@ export default class Services extends Component {
     return (
       <section className="service" id="service">
         <div className="container">
-          <div className="animated flipInX anm01">
+          <div
+            className="animated anm01"
+            data-aos="flip-up"
+            data-aos-mirror="true"
+            data-aos-anchor-placement="top-bottom"
+          >
             <h2 className="service__title">Xizmatlar</h2>
           </div>
-          <div className="animated flipInX anm02">
+          <div
+            className="animated anm02"
+            data-aos="flip-up"
+            data-aos-mirror="true"
+            data-aos-anchor-placement="top-bottom"
+          >
             <p className="service__info">
               Biz sizga samarali va kafolatli xizmat ko'rsatdim.
             </p>
           </div>
           <div className="top_service__flex ">
-            <div className="animated bounceInLeft anm03">
+            <div
+              className="animated anm03"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="top_ser_cards">
                 <img className="topser_card_pic" src={virus} alt="dsadasda" />
                 <div className="topser_card_right">
@@ -42,7 +57,12 @@ export default class Services extends Component {
                 </div>
               </div>
             </div>
-            <div className="animated bounceInLeft anm04">
+            <div
+              className="animated anm04"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="top_ser_cards">
                 <img
                   className="topser_card_pic"
@@ -66,7 +86,12 @@ export default class Services extends Component {
                 </div>
               </div>
             </div>
-            <div className="animated bounceInLeft anm05">
+            <div
+              className="animated anm05"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="top_ser_cards">
                 <img className="topser_card_pic" src={sichqon} alt="dasdasda" />
                 <div className="topser_card_right">
@@ -87,11 +112,21 @@ export default class Services extends Component {
               </div>
             </div>
           </div>
-          <div className="animated flipInX anm06">
+          <div
+            className="animated anm06"
+            data-aos="flip-up"
+            data-aos-mirror="true"
+            data-aos-anchor-placement="top-bottom"
+          >
             <h2 className="service__title">Xizmat turi</h2>
           </div>
           <div className="service__flex">
-            <div className="animated bounceInLeft anm06">
+            <div
+              className="animated anm06"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <span>
                 <div className="service__cards">
                   <div>
@@ -114,7 +149,12 @@ export default class Services extends Component {
                 </div>
               </span>
             </div>
-            <div className="animated bounceInLeft anm06">
+            <div
+              className="animated anm06"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <span>
                 <div className="service__cards">
                   <div>
@@ -137,7 +177,12 @@ export default class Services extends Component {
                 </div>
               </span>
             </div>
-            <div className="animated bounceInLeft anm06">
+            <div
+              className="animated anm06"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <span>
                 <div className="service__cards">
                   <div>
@@ -159,7 +204,12 @@ export default class Services extends Component {
                 </div>
               </span>
             </div>
-            <div className="animated bounceInLeft anm06">
+            <div
+              className="animated anm06"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <span>
                 <div className="service__cards">
                   <div>
@@ -183,7 +233,12 @@ export default class Services extends Component {
                 </div>
               </span>
             </div>
-            <div className="animated bounceInLeft anm06">
+            <div
+              className="animated anm06"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <span>
                 <div className="service__cards">
                   <div>

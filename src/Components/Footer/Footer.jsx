@@ -17,7 +17,12 @@ export default class Footer extends Component {
             </a>
             <div className="footer__right_div">
               <div className="footer__phone_address">
-                <div className="animated bounceInLeft anm1">
+                <div
+                  className="animated anm1"
+                  data-aos="fade-right"
+                  data-aos-mirror="true"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <a href="#home">
                     <span className="footer__span">
                       <svg
@@ -58,7 +63,12 @@ export default class Footer extends Component {
                     ></svg>
                   </a>
                 </div>
-                <div className="animated bounceInLeft anm2">
+                <div
+                  className="animated anm2"
+                  data-aos="fade-right"
+                  data-aos-mirror="true"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <a href="tel:+998991199933">
                     <span className="footer__span">
                       <svg

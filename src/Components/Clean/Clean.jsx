@@ -9,7 +9,12 @@ export default class Information extends Component {
       <section className="clean">
         <div className="container">
           <div className="clean__flex">
-            <div className="animated bounceInLeft anm1">
+            <div
+              className="animated anm1"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="clean__left">
                 <img
                   className="clean__left_pic"
@@ -19,20 +24,35 @@ export default class Information extends Component {
               </div>
             </div>
             <div className="clean__right">
-              <div className="animated bounceInLeft anm2">
+              <div
+                className="animated anm2"
+                data-aos="fade-right"
+                data-aos-mirror="true"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <img
                   className="threeD_image"
                   src={himoyaicon}
                   alt="sdasdasda"
                 />
               </div>
-              <div className="animated bounceInLeft anm3">
+              <div
+                className="animated anm3"
+                data-aos="fade-right"
+                data-aos-mirror="true"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <h3 className="clean__title">
-                  Rasmiy kafolat - 1 yil. Biz khizmoniy va yuridik shakhslarga
-                  xizmat kurstamiz. Xizmatlar litsenziyalangan!!!
+                  Rasmiy kafolat - 1 yil. Biz jizmoniy va yuridik shaxslarga
+                  xizmat ko'rsatamiz. Xizmatlar litsenziyalangan!!!
                 </h3>
               </div>
-              <div className="animated bounceInLeft anm4">
+              <div
+                className="animated anm4"
+                data-aos="fade-right"
+                data-aos-mirror="true"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <a href="#contact">
                   <button className="custom-btn_home btn-11_home">
                     Bog'lanish<div className="dot"></div>

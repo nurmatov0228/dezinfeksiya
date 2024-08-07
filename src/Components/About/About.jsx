@@ -6,11 +6,21 @@ export default class About extends Component {
     return (
       <section className="about" id="about">
         <div className="container">
-          <div className="animated flipInX anm1">
+          <div
+            className="animated anm1"
+            data-aos="flip-up"
+            data-aos-mirror="true"
+            data-aos-anchor-placement="top-bottom"
+          >
             <h2 className="about_title2">Haqida</h2>
           </div>
           <div className="about_flex">
-            <div className="animated bounceInLeft anm2">
+            <div
+              className="animated anm2"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="about_cards">
                 <svg
                   stroke="currentColor"
@@ -32,7 +42,12 @@ export default class About extends Component {
                 </p>
               </div>
             </div>
-            <div className="animated bounceInLeft anm3">
+            <div
+              className="animated anm3"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="about_cards">
                 <svg
                   stroke="currentColor"
@@ -58,7 +73,12 @@ export default class About extends Component {
                 </p>
               </div>
             </div>
-            <div className="animated bounceInLeft anm4">
+            <div
+              className="animated anm4"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="about_cards cc">
                 <svg
                   stroke="currentColor"

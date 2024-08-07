@@ -53,7 +53,12 @@ export default class Contact extends Component {
       <section className="contact" id="contact">
         <div className="container">
           <div className="contact__flex">
-            <div className="animated bounceInLeft anm1">
+            <div
+              className="animated anm1"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div className="contact__left">
                 <h2 className="contact__title">Ma'lumotingizni qoldiring</h2>
                 <form onSubmit={this.handleSubmit} className="contact__form">

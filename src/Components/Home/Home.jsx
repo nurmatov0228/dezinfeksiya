@@ -11,10 +11,20 @@ export default class Home extends Component {
           <div className="home__flex">
             <div className="home__left">
               <div className="home__hero_top">
-                <div className="animated bounceInLeft anm1">
+                <div
+                  className="animated anm1"
+                  data-aos="fade-right"
+                  data-aos-mirror="true"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <h1 className="home__title">Dezinfeksiya xizmati</h1>
                 </div>
-                <div className="animated bounceInLeft anm1">
+                <div
+                  className="animated anm1"
+                  data-aos="fade-right"
+                  data-aos-mirror="true"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <p className="home__info">
                     Biz Toshkentda 10 yildan beri professional dezinfeksiya
                     Ishlarini Olib Boramiz, Buning uchun Birinchi March
@@ -29,7 +39,12 @@ export default class Home extends Component {
                   />
                 </div>
               </div>
-              <div className="animated bounceInLeft anm1">
+              <div
+                className="animated anm1"
+                data-aos="fade-right"
+                data-aos-mirror="true"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <a href="#contact">
                   <button className="custom-btn_home btn-11_home btn_hm_H">
                     Bog'lanish<div className="dot"></div>

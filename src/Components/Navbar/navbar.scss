@@ -171,6 +171,16 @@
   }
 }
 
+@media (max-width: 1070px) {
+  .navbar__links {
+    display: none;
+  }
+
+  #linkitem {
+    display: none;
+  }
+}
+
 @media (max-width: 958px) {
   .navigations {
     width: 380px;
@@ -188,26 +198,11 @@
     z-index: 100;
   }
 
-  .dark_div_active {
-    display: inline-block;
-    z-index: 12;
-  }
-
   .navbar__links {
     margin: 30px 0 0;
     font-size: 22px;
     letter-spacing: 3px;
     font-weight: 600;
-  }
-
-  .close_menu,
-  .open_menu {
-    display: inline-block;
-  }
-
-  .close_menu {
-    margin-top: 28px;
-    transform: translate(210px);
   }
 
   .gg1 {

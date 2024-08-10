@@ -32,6 +32,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 45px;
+    justify-content: center;
   }
 
   &__cards {
@@ -219,29 +220,6 @@
   margin-left: 20px;
 }
 
-@media (max-width: 495px) {
-  .service__card_title {
-    font-size: 25px;
-  }
-
-  .service__card_text {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 520px) {
-  .about_title2 {
-    font-size: 30px;
-  }
-  .service__title {
-    font-size: 35px;
-  }
-
-  .service__card_btn {
-    font-size: 14px;
-  }
-}
-
 @media (max-width: 1416px) {
   .service__cards {
     max-width: 600px;
@@ -311,5 +289,43 @@
   .service__card_btn {
     max-width: 125px;
     font-size: 14px;
+  }
+
+  .top_service__flex {
+    align-items: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .about_title2 {
+    font-size: 30px;
+  }
+  .service__title {
+    font-size: 35px;
+  }
+
+  .service__card_btn {
+    font-size: 14px;
+  }
+
+  .topser_card_pic {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 495px) {
+  .service__card_title {
+    font-size: 25px;
+  }
+
+  .service__card_text {
+    font-size: 15px;
+  }
+  .service__title {
+    font-size: 30px;
+  }
+  .service__cards {
+    height: 400px;
   }
 }

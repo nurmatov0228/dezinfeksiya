@@ -10,7 +10,7 @@ export default class Information extends Component {
         <div className="container">
           <div className="clean__flex">
             <div
-              className="animated anm1"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -25,7 +25,7 @@ export default class Information extends Component {
             </div>
             <div className="clean__right">
               <div
-                className="animated anm2"
+                className="animated"
                 data-aos="fade-right"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"
@@ -37,7 +37,7 @@ export default class Information extends Component {
                 />
               </div>
               <div
-                className="animated anm3"
+                className="animated"
                 data-aos="fade-right"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"
@@ -48,7 +48,7 @@ export default class Information extends Component {
                 </h3>
               </div>
               <div
-                className="animated anm4"
+                className="animated"
                 data-aos="fade-right"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"

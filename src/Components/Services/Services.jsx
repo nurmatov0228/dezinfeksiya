@@ -15,7 +15,7 @@ export default class Services extends Component {
       <section className="service" id="service">
         <div className="container">
           <div
-            className="animated anm01"
+            className="animated"
             data-aos="flip-up"
             data-aos-mirror="true"
             data-aos-anchor-placement="top-bottom"
@@ -23,7 +23,7 @@ export default class Services extends Component {
             <h2 className="service__title">Xizmatlar</h2>
           </div>
           <div
-            className="animated anm02"
+            className="animated"
             data-aos="flip-up"
             data-aos-mirror="true"
             data-aos-anchor-placement="top-bottom"
@@ -34,7 +34,7 @@ export default class Services extends Component {
           </div>
           <div className="top_service__flex ">
             <div
-              className="animated anm03"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -58,7 +58,7 @@ export default class Services extends Component {
               </div>
             </div>
             <div
-              className="animated anm04"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -87,7 +87,7 @@ export default class Services extends Component {
               </div>
             </div>
             <div
-              className="animated anm05"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -113,7 +113,7 @@ export default class Services extends Component {
             </div>
           </div>
           <div
-            className="animated anm06"
+            className="animated"
             data-aos="flip-up"
             data-aos-mirror="true"
             data-aos-anchor-placement="top-bottom"
@@ -122,7 +122,7 @@ export default class Services extends Component {
           </div>
           <div className="service__flex">
             <div
-              className="animated anm06"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -150,7 +150,7 @@ export default class Services extends Component {
               </span>
             </div>
             <div
-              className="animated anm06"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -178,7 +178,7 @@ export default class Services extends Component {
               </span>
             </div>
             <div
-              className="animated anm06"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -205,7 +205,7 @@ export default class Services extends Component {
               </span>
             </div>
             <div
-              className="animated anm06"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -234,7 +234,7 @@ export default class Services extends Component {
               </span>
             </div>
             <div
-              className="animated anm06"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"

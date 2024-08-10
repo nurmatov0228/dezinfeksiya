@@ -54,7 +54,7 @@ export default class Contact extends Component {
         <div className="container">
           <div className="contact__flex">
             <div
-              className="animated anm1"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"

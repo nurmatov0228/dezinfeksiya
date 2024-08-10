@@ -12,7 +12,7 @@ export default class Home extends Component {
             <div className="home__left">
               <div className="home__hero_top">
                 <div
-                  className="animated anm1"
+                  className="animated"
                   data-aos="fade-right"
                   data-aos-mirror="true"
                   data-aos-anchor-placement="top-bottom"
@@ -20,7 +20,7 @@ export default class Home extends Component {
                   <h1 className="home__title">Dezinfeksiya xizmati</h1>
                 </div>
                 <div
-                  className="animated anm1"
+                  className="animated"
                   data-aos="fade-right"
                   data-aos-mirror="true"
                   data-aos-anchor-placement="top-bottom"
@@ -40,7 +40,7 @@ export default class Home extends Component {
                 </div>
               </div>
               <div
-                className="animated anm1"
+                className="animated "
                 data-aos="fade-right"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"

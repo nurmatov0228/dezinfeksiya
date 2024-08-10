@@ -7,7 +7,7 @@ export default class About extends Component {
       <section className="about" id="about">
         <div className="container">
           <div
-            className="animated anm1"
+            className="animated"
             data-aos="flip-up"
             data-aos-mirror="true"
             data-aos-anchor-placement="top-bottom"
@@ -16,7 +16,7 @@ export default class About extends Component {
           </div>
           <div className="about_flex">
             <div
-              className="animated anm2"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -43,7 +43,7 @@ export default class About extends Component {
               </div>
             </div>
             <div
-              className="animated anm3"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"
@@ -74,7 +74,7 @@ export default class About extends Component {
               </div>
             </div>
             <div
-              className="animated anm4"
+              className="animated"
               data-aos="fade-right"
               data-aos-mirror="true"
               data-aos-anchor-placement="top-bottom"

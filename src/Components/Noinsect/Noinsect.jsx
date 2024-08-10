@@ -10,7 +10,7 @@ export default class Noinsect extends Component {
             <div className="noinsect__tr"></div>
             <div className="noinsect__info">
               <div
-                className="animated  anm1"
+                className="animated"
                 data-aos="fade-left"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"
@@ -21,7 +21,7 @@ export default class Noinsect extends Component {
                 </h2>
               </div>
               <div
-                className="animated anm2"
+                className="animated"
                 data-aos="fade-left"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"
@@ -33,7 +33,7 @@ export default class Noinsect extends Component {
                 </p>
               </div>
               <div
-                className="animated anm3"
+                className="animated"
                 data-aos="fade-left"
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-bottom"

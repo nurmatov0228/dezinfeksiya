@@ -18,7 +18,7 @@ export default class Footer extends Component {
             <div className="footer__right_div">
               <div className="footer__phone_address">
                 <div
-                  className="animated anm1"
+                  className="animated"
                   data-aos="fade-right"
                   data-aos-mirror="true"
                   data-aos-anchor-placement="top-bottom"
@@ -64,7 +64,7 @@ export default class Footer extends Component {
                   </a>
                 </div>
                 <div
-                  className="animated anm2"
+                  className="animated"
                   data-aos="fade-right"
                   data-aos-mirror="true"
                   data-aos-anchor-placement="top-bottom"

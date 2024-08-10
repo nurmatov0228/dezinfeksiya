@@ -234,7 +234,8 @@
 
 @media (max-width: 1071px) {
   .service__cards {
-    max-width: 450px;
+    max-width: 400px;
+    height: 400px;
   }
 }
 
@@ -325,6 +326,14 @@
   .service__title {
     font-size: 30px;
   }
+}
+
+@media (max-width: 440px) {
+  .service__cards {
+    height: 350px;
+  }
+}
+@media (max-width: 405px) {
   .service__cards {
     height: 400px;
   }

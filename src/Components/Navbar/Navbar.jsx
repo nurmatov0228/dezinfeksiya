@@ -36,7 +36,7 @@ export default class Navbar extends Component {
                   Asosiy
                 </a>
                 <a href="#about" id="linkitem" className="navbar__links">
-                  Biz{}haqimizda
+                  Biz haqimizda
                 </a>
                 <a href="#service" className="navbar__links">
                   Xizmatlar
@@ -67,6 +67,11 @@ export default class Navbar extends Component {
                     Bog'lanish<div className="dot"></div>
                   </button>
                 </a>
+                <div className="navbar__burger">
+                  <hr className="navbar__hr" />
+                  <hr className="navbar__hr" />
+                  <hr className="navbar__hr" />
+                </div>
                 <button className="open_menu">
                   <svg
                     stroke="currentColor"

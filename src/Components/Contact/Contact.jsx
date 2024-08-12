@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./contact.scss";
 import oldirasm from "../Assets/img/oldifondagirasm.png";
 import axios from "axios";
-import { toast } from "react-toastify";
 
 export default class Contact extends Component {
   constructor() {
@@ -37,10 +36,10 @@ export default class Contact extends Component {
       },
     })
       .then((data) => {
-        toast.success(`Ma'lumot jo'natildi`);
+        alert("Ma'lumotlar Jo'natildi");
       })
       .catch((error) => {
-        toast.error(`Jo'natishda xatolik yuz berdi`);
+        alert("Ma'lumotlar jo'natishda xatolik yuz berdi");
       });
     this.setState({
       name: "",

@@ -243,8 +243,9 @@
   .service {
     padding-top: 10px;
 
-    &_cards {
+    &__cards {
       max-width: 100%;
+      width: 500px;
       margin-right: 0;
     }
 
@@ -294,6 +295,10 @@
 
   .top_service__flex {
     align-items: center;
+  }
+
+  .service__cards {
+    width: 100%;
   }
 }
 

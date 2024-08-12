@@ -36,10 +36,13 @@ export default class Contact extends Component {
       },
     })
       .then((data) => {
-        alert("Ma'lumotlar Jo'natildi");
+        const success = document.getElementById("success");
+        success.style.display = "block";
+        console.log(success);
       })
       .catch((error) => {
-        alert("Ma'lumotlar jo'natishda xatolik yuz berdi");
+        const success = document.getElementById("error");
+        success.style.display = "block";
       });
     this.setState({
       name: "",

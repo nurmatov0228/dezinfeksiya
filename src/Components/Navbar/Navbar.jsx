@@ -16,6 +16,34 @@ export default class Navbar extends Component {
               />
             </a>
             <div className="navbar__rigth__box">
+              <label id="success">
+                <input
+                  type="checkbox"
+                  class="alertCheckbox"
+                  autocomplete="off"
+                />
+                <div class="alert success">
+                  <span class="alertClose">X</span>
+                  <span class="alertText">
+                    Ma'lumotlar jo'natildi
+                    <br class="clear" />
+                  </span>
+                </div>
+              </label>
+              <label id="error">
+                <input
+                  type="checkbox"
+                  class="alertCheckbox"
+                  autocomplete="off"
+                />
+                <div class="alert error">
+                  <span class="alertClose">X</span>
+                  <span class="alertText">
+                    Jo'natishda xatolik bor
+                    <br class="clear" />
+                  </span>
+                </div>
+              </label>
               <div className="null navigations">
                 <button className="close_menu">
                   <svg
